@@ -12,21 +12,39 @@
 
 ### 运行安装程序：
 
-下载完成后，双击安装文件启动安装程序。
+下载完成后，双击安装文件启动安装程序
 选择安装选项：
+在安装界面，确保勾选“Add Python to PATH”选项，点击“Install Now”进行快速安装
+![image](https://github.com/user-attachments/assets/cbc30675-6302-4756-9936-f3540ad2156b)
 
-在安装界面，确保勾选“Add Python to PATH”选项。
-点击“Install Now”进行快速安装，或者选择“Customize installation”进行自定义安装。
-完成安装：
 
 等待安装完成，然后点击“Close”退出安装程序。
-验证安装：
+### 验证安装：
+打开命令行，Windows系统是按下 Win + R 键，输入 cmd 然后按回车（命令行如下图）
+![image](https://github.com/user-attachments/assets/20b39fd2-cb5f-4737-9ee8-4694ad37405b)
 
-打开命令行（Windows 上是 cmd，macOS 和 Linux 上是终端）。
-输入 python --version 或 python3 --version，检查 Python 是否成功安装。
-这样你就完成了 Python 的安装。如果需要安装额外的库，可以使用 pip 命令，比如 pip install package_name。
+在命令行里输入 python --version
+```bash
+python --version
+```
+![image](https://github.com/user-attachments/assets/df8e5cd5-34c8-4ceb-9ebe-b29c6f4160b1)
 
 
+如果输出Python的版本，说明 Python 安装成功
+![image](https://github.com/user-attachments/assets/1dc8b890-eeb9-4bb5-a15d-d51eafc42894)
+
+
+
+
+
+
+这样你就完成了 Python 的安装
+
+如果需要安装额外的库，可以使用 pip 命令，比如 pip install package_name。
+假如要安装pymem库就在命令行输入pip install pymem
+```bash
+pip install pymem
+```
 
 
 
